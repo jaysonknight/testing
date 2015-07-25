@@ -15,6 +15,7 @@ int gcd(int m, int n) {
   }
 }
 
+//Making sure gcd is called correctly with two arguments
 int verifyArgs(int argc, char * argv[]) {
   if (argc != 3) {
     printf("Usage: gcd m n (where m and n are integers)\n");
